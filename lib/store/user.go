@@ -32,7 +32,6 @@ func uuid() string {
 
 // NewUser creates a new user object
 func NewUser(username, accessToken, refreshToken string, store store) User {
-	id := uuid()
 	user := User{
 		ID:           username,
 		Username:     username,
